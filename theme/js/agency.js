@@ -65,7 +65,7 @@ $(function() {
             $(this).attr("src", "./images/portfolio/camus-seg-gif.gif");
         },
         function() {
-            $(this).attr("src", "./images/portfolio/camus-seg-static.png");
+            $(this).attr("src", "./images/portfolio/camus-seg-static.PNG");
         }
     );
 });
