@@ -38,6 +38,17 @@ $(function() {
 });
 
 $(function() {
+    $("#imgEmotion").hover(
+        function() {
+            $(this).attr("src", "./images/portfolio/emotion.gif");
+        },
+        function() {
+            $(this).attr("src", "./images/portfolio/emotions.PNG");
+        }
+    );
+});
+
+$(function() {
     $("#imgAnalytics").hover(
         function() {
             $(this).attr("src", "./images/portfolio/analytics-gif.gif");
