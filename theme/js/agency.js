@@ -29,10 +29,10 @@ $('.navbar-collapse ul li a').click(function() {
 $(function() {
     $("#imgComputerV").hover(
         function() {
-            $(this).attr("src", "./images/portfolio/camus-seg-gif.gif");
+            $(this).attr("src", "./images/portfolio/imagensalud.gif");
         },
         function() {
-            $(this).attr("src", "./images/portfolio/camus-seg-static.PNG");
+            $(this).attr("src", "./images/portfolio/imagensalud.png");
         }
     );
 });
